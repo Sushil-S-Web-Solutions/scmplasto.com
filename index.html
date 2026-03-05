@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indeed Packaging - Premium Films at 25% Less Cost | indeedpack.com</title>
+    <meta name="description" content="Get ISO-certified packaging films and adhesives at 25% less cost. Premium quality machine stretch films, biodegradable options, and food packaging solutions. Free samples available." />
+    <meta name="keywords" content="packaging films, stretch film manufacturer, machine stretch film, biodegradable packaging, food packaging films, industrial adhesives, ISO certified packaging" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Google Analytics Placeholder -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    -->
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --primary-red: #c1121f;
+        --secondary-dark: #333333;
+        --light-bg: #f8f8f8;
+        --white: #ffffff;
+        --text-dark: #2c2c2c;
+        --text-gray: #666666;
+        --border-light: #e5e5e5;
+        --success-green: #28a745;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        line-height: 1.6;
+        color: var(--text-dark);
+        background: var(--white);
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      /* Header */
+      .header {
+        background: var(--white);
+        padding: 15px 0;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        height: 50px;
+        width: auto;
+      }
+
+      .header-contact {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--text-dark);
+        font-weight: 500;
+      }
+
+      .cta-header {
+        background: var(--primary-red);
+        color: var(--white);
+        padding: 12px 24px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+
+      .cta-header:hover {
+        background: #a10e1a;
+        transform: translateY(-2px);
+      }
+
+      /* Hero Section */
+      .hero {
+        background: linear-gradient(135deg, var(--light-bg) 0%, #e8e8e8 100%);
+        padding: 80px 0;
+        position: relative;
+      }
+
+      .hero-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+      }
+
+      .hero-text h1 {
+        font-size: clamp(2.5rem, 4vw, 3.5rem);
+        font-weight: 800;
+        color: var(--text-dark);
+        margin-bottom: 20px;
+        line-height: 1.2;
+      }
+
+      .hero-text .highlight {
+        color: var(--primary-red);
+      }
+
+      .hero-text p {
+        font-size: 1.25rem;
+        color: var(--text-gray);
+        margin-bottom: 30px;
+        line-height: 1.6;
+      }
+
+      .hero-cta {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .btn-primary {
+        background: var(--primary-red);
+        color: var(--white);
+        padding: 16px 32px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .btn-primary:hover {
+        background: #a10e1a;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(193, 18, 31, 0.3);
+      }
+
+      .btn-secondary {
+        background: var(--white);
+        color: var(--primary-red);
+        padding: 16px 32px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        border: 2px solid var(--primary-red);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .btn-secondary:hover {
+        background: var(--primary-red);
+        color: var(--white);
+        transform: translateY(-2px);
+      }
+
+      .hero-image {
+        position: relative;
+      }
+
+      .hero-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+      }
+
+      /* Trust Indicators */
+      .trust-bar {
+        background: var(--white);
+        padding: 30px 0;
+        border-bottom: 1px solid var(--border-light);
+      }
+
+      .trust-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+
+      .trust-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: var(--text-gray);
+        font-weight: 500;
+      }
+
+      .trust-item .icon {
+        color: var(--success-green);
+        font-size: 1.2rem;
+      }
+
+      /* Value Proposition Section */
+      .value-props {
+        padding: 80px 0;
+        background: var(--white);
+      }
+
+      .section-header {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      .section-header h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--text-dark);
+        margin-bottom: 20px;
+      }
+
+      .section-header p {
+        font-size: 1.2rem;
+        color: var(--text-gray);
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .props-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+      }
+
+      .prop-card {
+        background: var(--white);
+        padding: 40px 30px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        border: 1px solid var(--border-light);
+      }
+
+      .prop-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+      }
+
+      .prop-icon {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(135deg, var(--primary-red), #d9534f);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 25px;
+        font-size: 2rem;
+        color: var(--white);
+      }
+
+      .prop-card h3 {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--text-dark);
+        margin-bottom: 15px;
+      }
+
+      .prop-card p {
+        color: var(--text-gray);
+        line-height: 1.6;
+      }
+
+      /* Products Section */
+      .products {
+        padding: 80px 0;
+        background: var(--light-bg);
+      }
+
+      .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 30px;
+      }
+
+      .product-card {
+        background: var(--white);
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+      }
+
+      .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+      }
+
+      .product-image {
+        height: 200px;
+        background: linear-gradient(135deg, var(--light-bg), #e0e0e0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        color: var(--text-gray);
+      }
+
+      .product-content {
+        padding: 30px;
+      }
+
+      .product-content h3 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--text-dark);
+        margin-bottom: 15px;
+      }
+
+      .product-content p {
+        color: var(--text-gray);
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+
+      .product-specs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 25px;
+      }
+
+      .spec-tag {
+        background: var(--light-bg);
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        color: var(--text-dark);
+        font-weight: 500;
+      }
+
+      /* Comparison Section */
+      .comparison {
+        padding: 80px 0;
+        background: var(--white);
+      }
+
+      .comparison-table {
+        background: var(--white);
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .comparison-table table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .comparison-table th,
+      .comparison-table td {
+        padding: 20px;
+        text-align: left;
+        border-bottom: 1px solid var(--border-light);
+      }
+
+      .comparison-table th {
+        background: var(--secondary-dark);
+        color: var(--white);
+        font-weight: 600;
+      }
+
+      .comparison-table .highlight-row {
+        background: rgba(193, 18, 31, 0.05);
+      }
+
+      .comparison-table .checkmark {
+        color: var(--success-green);
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      /* CTA Section */
+      .cta-section {
+        padding: 80px 0;
+        background: linear-gradient(135deg, var(--primary-red), #d9534f);
+        color: var(--white);
+        text-align: center;
+      }
+
+      .cta-content h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      .cta-content p {
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+        opacity: 0.9;
+      }
+
+      .cta-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .btn-white {
+        background: var(--white);
+        color: var(--primary-red);
+        padding: 16px 32px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .btn-white:hover {
+        background: var(--light-bg);
+        transform: translateY(-2px);
+      }
+
+      /* Contact Section */
+      .contact {
+        padding: 80px 0;
+        background: var(--light-bg);
+      }
+
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: start;
+      }
+
+      .contact-info h3 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: var(--text-dark);
+        margin-bottom: 30px;
+      }
+
+      .contact-item-large {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 25px;
+        padding: 20px;
+        background: var(--white);
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      }
+
+      .contact-icon {
+        width: 50px;
+        height: 50px;
+        background: var(--primary-red);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--white);
+        font-size: 1.2rem;
+      }
+
+      .contact-form {
+        background: var(--white);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      }
+
+      .form-group {
+        margin-bottom: 25px;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: var(--text-dark);
+      }
+
+      .form-group input,
+      .form-group select,
+      .form-group textarea {
+        width: 100%;
+        padding: 12px 15px;
+        border: 2px solid var(--border-light);
+        border-radius: 6px;
+        font-size: 1rem;
+        transition: border-color 0.3s ease;
+      }
+
+      .form-group input:focus,
+      .form-group select:focus,
+      .form-group textarea:focus {
+        outline: none;
+        border-color: var(--primary-red);
+      }
+
+      /* Footer */
+      .footer {
+        background: var(--secondary-dark);
+        color: var(--white);
+        padding: 40px 0;
+        text-align: center;
+      }
+
+      .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 40px;
+        margin-bottom: 30px;
+      }
+
+      .footer-section h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+
+      .footer-section p,
+      .footer-section a {
+        color: rgba(255,255,255,0.8);
+        text-decoration: none;
+        line-height: 1.8;
+      }
+
+      .footer-section a:hover {
+        color: var(--white);
+      }
+
+      /* WhatsApp Float */
+      .whatsapp-float {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 60px;
+        height: 60px;
+        background: #25d366;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--white);
+        font-size: 1.8rem;
+        text-decoration: none;
+        box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+        z-index: 1000;
+        transition: all 0.3s ease;
+      }
+
+      /* Footer Bottom */
+      .footer-bottom {
+        text-align: center;
+        padding-top: 30px;
+        border-top: 1px solid rgba(255,255,255,0.2);
+      }
+
+      /* Utility: Block-level button */
+      .btn-block {
+        width: 100%;
+      }
+
+      .whatsapp-float:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .container {
+          padding: 0 15px;
+        }
+
+        .hero-content {
+          grid-template-columns: 1fr;
+          gap: 40px;
+          text-align: center;
+        }
+
+        .hero-cta {
+          justify-content: center;
+        }
+
+        .header-contact {
+          display: none;
+        }
+
+        .trust-content {
+          justify-content: center;
+          text-align: center;
+        }
+
+        .contact-grid {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+
+        .props-grid,
+        .products-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .section-header h2 {
+          font-size: 2rem;
+        }
+
+        .hero-text h1 {
+          font-size: 2.2rem;
+        }
+
+        .cta-buttons {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .btn-primary,
+        .btn-secondary,
+        .btn-white {
+          width: 100%;
+          max-width: 280px;
+          justify-content: center;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .hero {
+          padding: 50px 0;
+        }
+
+        .value-props,
+        .products,
+        .comparison,
+        .cta-section,
+        .contact {
+          padding: 50px 0;
+        }
+
+        .contact-form {
+          padding: 25px;
+        }
+
+        .whatsapp-float {
+          bottom: 20px;
+          right: 20px;
+          width: 50px;
+          height: 50px;
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <img src="https://indeedpack.com/Images/logo1.png" alt="Indeed Packaging" class="logo">
+          <div class="header-contact">
+            <div class="contact-item">
+              <span>📞</span>
+              <span>+91-77986 83333</span>
+            </div>
+            <div class="contact-item">
+              <span>✉️</span>
+              <span>sales@indeedpack.com</span>
+            </div>
+            <a href="#contact" class="cta-header">Get Free Sample</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Premium Packaging Films at <span class="highlight">25% Less Cost</span></h1>
+            <p>ISO-certified films with superior stretch & puncture resistance. Get manufacturer-direct pricing with personalized service that big suppliers can't match.</p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn-primary">
+                📦 Get Free Sample Kit
+              </a>
+              <a href="#products" class="btn-secondary">
+                📊 View Products
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Premium Packaging Films">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="trust-bar">
+      <div class="container">
+        <div class="trust-content">
+          <div class="trust-item">
+            <span class="icon">✓</span>
+            <span>ISO 9001:2015 Certified</span>
+          </div>
+          <div class="trust-item">
+            <span class="icon">✓</span>
+            <span>500+ Companies Trust Us</span>
+          </div>
+          <div class="trust-item">
+            <span class="icon">✓</span>
+            <span>In-House QC Lab</span>
+          </div>
+          <div class="trust-item">
+            <span class="icon">✓</span>
+            <span>25+ Years Experience</span>
+          </div>
+          <div class="trust-item">
+            <span class="icon">✓</span>
+            <span>Custom Solutions Available</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value Propositions -->
+    <section class="value-props">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Choose Indeed Packaging?</h2>
+          <p>Get the competitive advantage with superior quality films at manufacturer-direct pricing</p>
+        </div>
+        <div class="props-grid">
+          <div class="prop-card">
+            <div class="prop-icon">💰</div>
+            <h3>25-30% Cost Savings</h3>
+            <p>Eliminate distributor markups. Get premium quality films directly from ISO-certified manufacturer at unbeatable prices.</p>
+          </div>
+          <div class="prop-card">
+            <div class="prop-icon">🎯</div>
+            <h3>Superior Performance</h3>
+            <p>Higher stretch ratios, better puncture resistance, and consistent thickness. Every batch tested in our in-house QC lab.</p>
+          </div>
+          <div class="prop-card">
+            <div class="prop-icon">⚡</div>
+            <h3>Fast & Reliable</h3>
+            <p>Quick delivery, responsive customer service, and flexible order quantities. No minimum order restrictions.</p>
+          </div>
+          <div class="prop-card">
+            <div class="prop-icon">🎨</div>
+            <h3>Complete Customization</h3>
+            <p>Custom colors, printing, and sizes available. Widths from 50mm to 1500mm, thickness 10μ to 75μ.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Premium Product Range</h2>
+          <p>Comprehensive packaging solutions for every industrial need</p>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">🎬</div>
+            <div class="product-content">
+              <h3>Machine Stretch Film</h3>
+              <p>Premium grade films with 5,000+ feet rolls. Excellent consistency and superior stretch performance for automated packaging lines.</p>
+              <div class="product-specs">
+                <span class="spec-tag">10μ - 50μ</span>
+                <span class="spec-tag">Clear & Colored</span>
+                <span class="spec-tag">Custom Printing</span>
+              </div>
+              <a href="#contact" class="btn-primary">Get Quote</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">🌱</div>
+            <div class="product-content">
+              <h3>Biodegradable Films</h3>
+              <p>Eco-friendly packaging solutions without compromising performance. Same strength and stretch with environmental benefits.</p>
+              <div class="product-specs">
+                <span class="spec-tag">Compostable</span>
+                <span class="spec-tag">FDA Approved</span>
+                <span class="spec-tag">Various Sizes</span>
+              </div>
+              <a href="#contact" class="btn-primary">Get Quote</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">🥘</div>
+            <div class="product-content">
+              <h3>Food Packaging Films</h3>
+              <p>Food-grade aluminum foil, meat packaging films, and food service solutions. All FDA compliant with superior barrier properties.</p>
+              <div class="product-specs">
+                <span class="spec-tag">FDA Certified</span>
+                <span class="spec-tag">Barrier Films</span>
+                <span class="spec-tag">Heat Resistant</span>
+              </div>
+              <a href="#contact" class="btn-primary">Get Quote</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">📦</div>
+            <div class="product-content">
+              <h3>Performance Films</h3>
+              <p>Premium grade stretch films for heavy-duty applications. Superior puncture resistance and load retention capabilities.</p>
+              <div class="product-specs">
+                <span class="spec-tag">Heavy Duty</span>
+                <span class="spec-tag">High Stretch</span>
+                <span class="spec-tag">Load Stable</span>
+              </div>
+              <a href="#contact" class="btn-primary">Get Quote</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">🔥</div>
+            <div class="product-content">
+              <h3>Shrink Film Specials</h3>
+              <p>Custom shrink films for unique applications. Various thicknesses and formulations for specific packaging needs.</p>
+              <div class="product-specs">
+                <span class="spec-tag">Custom Formulation</span>
+                <span class="spec-tag">Multi-layer</span>
+                <span class="spec-tag">Various Shrink Ratios</span>
+              </div>
+              <a href="#contact" class="btn-primary">Get Quote</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">🏭</div>
+            <div class="product-content">
+              <h3>Industrial Adhesives</h3>
+              <p>High-performance industrial adhesives and tapes for packaging and manufacturing applications. Superior bonding strength.</p>
+              <div class="product-specs">
+                <span class="spec-tag">High Tack</span>
+                <span class="spec-tag">Temperature Resistant</span>
+                <span class="spec-tag">Various Widths</span>
+              </div>
+              <a href="#contact" class="btn-primary">Get Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison">
+      <div class="container">
+        <div class="section-header">
+          <h2>Indeed Packaging vs. Competitors</h2>
+          <p>See why smart businesses choose us over iTape and US Packaging</p>
+        </div>
+        <div class="comparison-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Indeed Packaging</th>
+                <th>iTape</th>
+                <th>US Packaging</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="highlight-row">
+                <td><strong>Cost Advantage</strong></td>
+                <td><span class="checkmark">✓</span> 25% Lower Cost</td>
+                <td>Standard Pricing</td>
+                <td>Premium Pricing</td>
+              </tr>
+              <tr>
+                <td><strong>ISO Certification</strong></td>
+                <td><span class="checkmark">✓</span> ISO 9001:2015</td>
+                <td>Limited Certifications</td>
+                <td><span class="checkmark">✓</span> Certified</td>
+              </tr>
+              <tr class="highlight-row">
+                <td><strong>Custom Printing</strong></td>
+                <td><span class="checkmark">✓</span> No Extra Cost</td>
+                <td>Premium Charges</td>
+                <td>Premium Charges</td>
+              </tr>
+              <tr>
+                <td><strong>Width Range</strong></td>
+                <td><span class="checkmark">✓</span> 50mm - 1500mm</td>
+                <td>Limited Range</td>
+                <td>Standard Range</td>
+              </tr>
+              <tr class="highlight-row">
+                <td><strong>Minimum Orders</strong></td>
+                <td><span class="checkmark">✓</span> Flexible</td>
+                <td>High Minimums</td>
+                <td>High Minimums</td>
+              </tr>
+              <tr>
+                <td><strong>Customer Service</strong></td>
+                <td><span class="checkmark">✓</span> Direct Access</td>
+                <td>Through Distributors</td>
+                <td>Through Distributors</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Save 25% on Packaging Costs?</h2>
+          <p>Join 500+ companies who've already made the smart switch to Indeed Packaging. Get your free sample kit today and see the quality difference.</p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn-white">
+              📦 Get Free Samples
+            </a>
+            <a href="tel:+917798683333" class="btn-white">
+              📞 Call Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get Your Free Sample Kit</h2>
+          <p>Experience the quality difference. Request samples of our premium films today.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <div class="contact-item-large">
+              <div class="contact-icon">📞</div>
+              <div>
+                <strong>Phone</strong><br>
+                +91-7798683333
+              </div>
+            </div>
+            <div class="contact-item-large">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <strong>Email</strong><br>
+                sales@indeedpack.com
+              </div>
+            </div>
+            <div class="contact-item-large">
+              <div class="contact-icon">🏭</div>
+              <div>
+                <strong>Manufacturing</strong><br>
+                ISO 9001:2015 Certified Facility
+              </div>
+            </div>
+            <div class="contact-item-large">
+              <div class="contact-icon">🚚</div>
+              <div>
+                <strong>Delivery</strong><br>
+                Pan-India Supply Network
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <label for="company">Company Name *</label>
+                <input type="text" id="company" name="company" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Contact Person *</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone *</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="product">Product Interest</label>
+                <select id="product" name="product">
+                  <option value="">Select Product Category</option>
+                  <option value="machine-stretch">Machine Stretch Film</option>
+                  <option value="biodegradable">Biodegradable Films</option>
+                  <option value="food-packaging">Food Packaging Films</option>
+                  <option value="performance">Performance Films</option>
+                  <option value="shrink">Shrink Films</option>
+                  <option value="adhesives">Industrial Adhesives</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="volume">Monthly Volume Requirements</label>
+                <input type="text" id="volume" name="volume" placeholder="e.g., 1000 rolls/month">
+              <button type="submit" class="btn-primary btn-block">
+                📦 Send Sample Request
+              </button>
+                <textarea id="message" name="message" rows="4" placeholder="Custom specifications, colors, printing requirements, etc."></textarea>
+              </div>
+              <button type="submit" class="btn-primary" style="width: 100%;">
+                📦 Send Sample Request
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Indeed Packaging</h4>
+            <p>Your Complete Packaging Solutions</p>
+            <p>ISO 9001:2015 Certified Manufacturing</p>
+          </div>
+          <div class="footer-section">
+            <h4>Products</h4>
+            <p><a href="#products">Machine Stretch Films</a></p>
+            <p><a href="#products">Biodegradable Films</a></p>
+            <p><a href="#products">Food Packaging Films</a></p>
+            <p><a href="#products">Industrial Adhesives</a></p>
+          </div>
+          <div class="footer-section">
+            <h4>Company</h4>
+            <p><a href="#about">About Us</a></p>
+            <p><a href="#quality">Quality Assurance</a></p>
+            <p><a href="#contact">Contact</a></p>
+            <p><a href="#careers">Careers</a></p>
+          </div>
+          <div class="footer-section">
+        <div class="footer-bottom">
+          <p>&copy; 2025 Gig Things Consulting (GTC). All rights reserved. | <a href="https://gigthingsconsulting.com/"> GigThingsConsulting.com </a> </p>
+        </div>
+            <p><a href="#documentation">Product Documentation</a></p>
+            <p><a href="#faq">FAQ</a></p>
+          </div>
+        </div>
+        <div style="text-align: center; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.2);">
+          <p>&copy; 2025 Gig Things Consulting (GTC). All rights reserved. | <a href="https://gigthingsconsulting.com/"> GigThingsConsulting.com </a></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/917798683333?text=Hi%2C%20I%27m%20interested%20in%20your%20packaging%20films" class="whatsapp-float" target="_blank">
+      💬
+    </a>
+
+    <script>
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Form submission
+      document.querySelector('form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Get form data
+        const formData = new FormData(this);
+        const data = Object.fromEntries(formData);
+        
+        // Basic validation
+        if (!data.company || !data.name || !data.phone || !data.email) {
+          alert('Please fill in all required fields.');
+          return;
+        }
+        
+        // Here you would typically send the data to your server
+        console.log('Form submitted:', data);
+        
+        // Show success message
+        alert('Thank you! We will send your sample kit and contact you within 24 hours.');
+        
+        // Reset form
+        this.reset();
+      });
+
+      // Add loading animation
+      window.addEventListener('load', function() {
+        document.body.style.opacity = '0';
+        document.body.style.transition = 'opacity 0.3s ease-in-out';
+        setTimeout(() => {
+          document.body.style.opacity = '1';
+        }, 100);
+      });
+
+      // Track CTA clicks (for analytics)
+      document.querySelectorAll('.btn-primary, .btn-secondary, .btn-white, .cta-header').forEach(button => {
+        button.addEventListener('click', function() {
+          // Track conversion events
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'cta_click', {
+              'event_category': 'engagement',
+              'event_label': this.textContent.trim()
+            });
+          }
+          console.log('CTA clicked:', this.textContent.trim());
+        });
+      });
+    </script>
+  </body>
+</html>
